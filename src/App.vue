@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import CountryData from "./components/CountryData";
+import CountryData from "./components/CountryList";
 export default {
   name: 'App',
   components: {
