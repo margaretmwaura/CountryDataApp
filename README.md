@@ -1,24 +1,17 @@
-# country_data
-
+# Country Data
+The project allows one to view all the countries and also filter the countries based on name. One can also verify a phone number per country.
 ## Project setup
-```
-npm install
-```
 
-### Compiles and hot-reloads for development
+### Install all the node modules
 ```
-npm run serve
+Run npm install
 ```
-
 ### Compiles and minifies for production
 ```
-npm run build
+Run npm run build
 ```
-
-### Lints and fixes files
+### Compiles and hot-reloads for development
 ```
-npm run lint
+Run npm run start
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+The project will be served at port 4000.
