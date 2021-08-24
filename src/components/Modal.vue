@@ -89,7 +89,7 @@ export default {
   &__header {
     padding: 20px 20px 10px;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: space-between;
   }
   &__body {

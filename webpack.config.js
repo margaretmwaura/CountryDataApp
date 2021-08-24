@@ -13,9 +13,6 @@ module.exports = {
         client: [
             "./src/main.js",
         ],
-        vendor: [
-            "script-loader!./node_modules/foundation-sites/dist/js/foundation.min",
-        ]
     },
     output: {
         chunkFilename: '[name].[hash].js',
