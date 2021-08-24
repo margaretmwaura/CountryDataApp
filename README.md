@@ -8,8 +8,8 @@ Run npm install
 ### Compiles and hot-reloads for development
 ```
 Run npm run start
-The project will be served at port 4000.
 ```
+The project will be served at port 4000.
 
 ### Compiles and minifies for production
 ```
