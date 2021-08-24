@@ -91,6 +91,7 @@ export default {
 }
 
 .flexbox-item {
+  padding-top: 10px;
   width: 100px;
   min-width: 350px;
   min-height: 450px;

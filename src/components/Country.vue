@@ -39,6 +39,7 @@
         <template v-slot:footer>
           <div>
             <button @click="$refs.modalName.closeModal()" class="button radius">Close</button>
+            <button @click="openGoogleMap" class="button success radius">View On Map</button>
           </div>
         </template>
       </modal>
@@ -108,8 +109,15 @@ export default {
               type: 'error',
             });
           })
+    },
+    openGoogleMap(){
+        const urlSuffix = this.country_data.latlng
+        window.open(
+            "https://www.google.com/maps/search/?api=1&query=" + urlSuffix,
+            "_blank"
+        );
+      },
     }
-  },
 }
 </script>
 
